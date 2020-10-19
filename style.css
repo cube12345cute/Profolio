@@ -1,0 +1,210 @@
+p, h1, h2, h3, h4, h5 {
+    font-family: Microsoft JhengHei;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#wrapper{
+	max-height: 100%;
+position: relative;
+}
+
+img.alignleft {
+	float: left;
+	margin-left: 25px;
+}
+#menu {
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0;
+	background-color:red;
+	position: fixed;
+	top: 0;
+	left: 0;
+    
+}
+#menu ul {
+	
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	
+}
+#menu li {
+    margin: auto;
+    
+    
+	float: left;
+}
+
+#menu a {
+	left: 0;
+	display: block;
+	height: 65px;
+	margin-right: 0px;
+	padding: 15px 30px 0px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+    /* text-shadow: #8A5608 -1px 1px 1px; */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: normal;
+	color: black;
+	border: none;
+}
+#menu .current_page_item a {
+}
+
+#menu a:hover:not(.active) {
+	color: white;
+	background-color: #111;
+		
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+#history_table   {
+
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin-top:100px;
+
+	background-color:green;
+}
+#history_table th{
+    background-color: rgb(124, 181, 228);
+    height:50px;
+	width:400px;
+	
+
+}
+
+#history_table td{
+    background-color: rgb(124, 181, 228);
+    height:200px;
+	width:400px;
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+
+#introduction{
+    background: #fff;
+	padding: 120px 150px 60px 150px;
+	
+}
+
+#aboutme {
+	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 50px 0;
+	
+}
+
+
+#img_personal_pic{
+	display: block;
+	
+	}
+	
+#img_personal_pic img {
+	margin: 0 0px 0;
+    border-radius: 50%;
+}
+#post {
+    padding: 0px 0px 0px 150px ;;
+    width: 63.33333%;
+    line-height: 30px;
+    text-align: left;
+	font-size: 18px;
+	
+}
+footer{
+	
+	margin: 0px 0px 0px 0px ;
+	height: 50px;
+    width: 100%;
+    background: rgb(174, 174, 194);
+	padding: 1px 0px 1px 0px;
+	align-items: center;
+    text-align: center;
+}
+#skilldiv{
+	
+	left: 0%;
+	margin-top:100px;
+	margin-bottom:80px;
+    display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+    text-align: center;
+	
+	vertical-align: middle;
+	
+
+}
+
+#arduino {
+	margin-left:150px;
+	margin-right: 10px; 
+	box-shadow: 0 0 15px #dadadae1;
+	width: 300px;
+	height:400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    
+	border-radius: 5px;
+	/*background: aqua;*/
+}
+
+
+
+#pythondiv{
+	box-shadow: 0 0 15px #dadadae1;
+	margin-right: 10px; 
+	width: 300px;
+	height:400px;
+	padding: 15px;
+	/*background: rebeccapurple;*/
+}
+#pythondiv img{
+	padding: 10px 0px 0px 0px;
+	margin-bottom: 20px;
+}
+#pythondiv h2{
+	margin-bottom: 20px;
+}
+
+#htmldiv{
+	box-shadow: 0 0 15px #dadadae1;
+	width: 300px;
+	height:400px;
+	padding: 15px;
+	/*background: darkred;*/
+}
+	
+#htmldiv img{
+	padding: 20px 0px 0px 0px;
+	margin-bottom: 20px;
+}
+#htmldiv h2{
+	margin-bottom: 20px;
+}
